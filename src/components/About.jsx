@@ -9,9 +9,9 @@ export default function About() {
         <h2 className="heading heading-sec heading-sec__mb-med">
           <span className="heading-sec__main">About Me</span>
           <p className="heading-sec__sub">
-            I'm a frontend developer from England, UK. I love building apps that solve real-world
-            problems and that are delightful to use. My specialties include React JS and Styled
-            Components.
+            I’m a self-taught frontend developer based in England, UK with a background in facilities management. 
+            I bring real-world perspective, self-discipline, and a hunger to grow, both as a developer and as a person. 
+            I’m passionate about building web apps that feel purposeful, polished, and genuinely satisfying to use.
           </p>
         </h2>
 
@@ -21,8 +21,9 @@ export default function About() {
             <h3 className="about__content-title">Get to know me!</h3>
             <div className="about__content-details">
               <p className="about__content-details-para">
-                My background is in facilities management. When I'm not coding, I'm learning
-                languages, playing games, and reading.
+                Before tech, I worked in facilities management, where I developed a knack for solving problems 
+                and working under pressure. Outside of coding, you’ll usually find me learning languages, 
+                training in the gym, or deep in a game or book. I'm always chasing growth, whether it's in skill, mindset, or impact.
               </p>
             </div>
             <Link href="#contact" className="btn btn--med btn--theme dynamicBgClr">

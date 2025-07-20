@@ -23,7 +23,7 @@ export default function Footer() {
                   height={25}
                 />
               </Link>
-              <Link href="#" target="_blank" rel="noreferrer">
+              <Link href="https://github.com/SanJammin" target="_blank" rel="noreferrer">
                 <Image
                   className="main-footer__icon"
                   src="/assets/img/github-ico.png"

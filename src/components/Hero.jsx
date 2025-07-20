@@ -10,8 +10,8 @@ export default function Hero() {
                 <h1 className="heading-primary">Hey, my name is Freddie Farr</h1>
                 <div className="home-hero__info">
                     <p className="text-primary">
-                        I am a passionate frontend developer based in England, UK. My specialties are
-                        <strong>React JS</strong> and I love building PWAs that are delightful to use.
+                        I’m a frontend developer based in the UK, passionate about growth in code, creativity, and character. 
+                        I build clean, responsive apps with React and care deeply about creating experiences users genuinely enjoy.
                     </p>
                 </div>
                 <div className="home-hero__cta">
@@ -29,7 +29,7 @@ export default function Hero() {
                     </a>
                 </div>
                 <div className="home-hero__social">
-                    <a href="#" className="home-hero__social-icon-link">
+                    <a target="_blank" href="https://github.com/SanJammin" className="home-hero__social-icon-link">
                         <img 
                             src="assets/img/github-ico.png"
                             alt="github-ico icon"

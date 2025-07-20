@@ -901,3 +901,11 @@ textarea {
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(var(--main-color), 1);
 }
+
+.email {
+    font-style: italic;
+}
+
+.email:hover {
+    text-decoration: double underline;
+}

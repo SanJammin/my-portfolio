@@ -16,7 +16,7 @@ export default function Navbar() {
                 <div className="header__logo-container" onClick={() => (window.location.href = "/")}>
                     <div className="header__logo-img-cont">
                         <img
-                            src="#"
+                            src="/assets/img/profile.jpg" //Change Photo later
                             alt="Logo Image"
                             className="header__logo-img"
                         />

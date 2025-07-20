@@ -10,7 +10,7 @@ export default function Contact() {
           <p className="heading-sec__sub heading-sec__sub--lt">
             Please reach out if you have any questions! I'm happy to jump on a video call to
             brainstorm projects and ideas. Send me an email at{' '}
-            <a href="mailto:freddie.farr893@gmail.com">freddie.farr893@gmail.com</a> or message me
+            <a href="mailto:freddie.farr893@gmail.com" className="email">freddie.farr893@gmail.com</a> or message me
             on LinkedIn.
           </p>
         </h2>
