@@ -910,3 +910,61 @@ textarea {
 .email:hover {
     text-decoration: double underline;
 }
+
+.projects__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+@media (max-width: 900px) {
+  .projects__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.project-card {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s;
+}
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card__img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+.project-card__content {
+  padding: 2rem;
+}
+
+.project-card__title {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+.project-card__description {
+  font-size: 1.6rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.project-card__stack {
+  margin-bottom: 2rem;
+}
+.project-card__tag {
+  display: inline-block;
+  background: #eee;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin-right: 0.8rem;
+  font-size: 1.3rem;
+}
