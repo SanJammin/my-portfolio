@@ -9,6 +9,7 @@ export default function About() {
         <h2 className="heading heading-sec heading-sec__mb-med">
           <span className="heading-sec__main">About Me</span>
           <p className="heading-sec__sub">
+            My name is James Farr but most people call me Freddie based on my middle name.
             I’m a self-taught frontend developer based in England, UK with a background in facilities management. 
             I bring real-world perspective, self-discipline, and a hunger to grow, both as a developer and as a person. 
             I’m passionate about building web apps that feel purposeful, polished, and genuinely satisfying to use.
