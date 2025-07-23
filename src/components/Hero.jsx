@@ -20,7 +20,7 @@ export default function Hero() {
             </div>
             <div className="home-hero__socials">
                 <div className="home-hero__social">
-                    <a href="#" className="home-hero__social-icon-link">
+                    <a target="_blank" href="https://www.linkedin.com/in/freddie-farr-3a6781376/" className="home-hero__social-icon-link">
                         <img 
                             src="assets/img/linkedin-ico.png"
                             alt="linkedin icon"

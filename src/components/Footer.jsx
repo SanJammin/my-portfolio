@@ -14,7 +14,7 @@ export default function Footer() {
               <span>Social</span>
             </h2>
             <div className="main-footer__social-cont">
-              <Link href="#" target="_blank" rel="noreferrer">
+              <Link href="https://www.linkedin.com/in/freddie-farr-3a6781376/" target="_blank" rel="noreferrer">
                 <Image
                   className="main-footer__icon"
                   src="/assets/img/linkedin-ico.png"
