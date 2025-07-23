@@ -48,7 +48,7 @@ export default function ProjectDetail({ params }) {
             <h3 className="project-details__content-title">Tools Used</h3>
             <div className="project-details__tools-used-list">
               {project.stack.map((tool) => (
-                <span key={tool} className="project-details__tools-used-item">
+                <span key={tool} className="project-details__tools-used-item-project-page">
                   {tool}
                 </span>
               ))}
@@ -61,7 +61,7 @@ export default function ProjectDetail({ params }) {
               <h3 className="project-details__content-title">Project Highlights</h3>
               <ul className="project-details__desc-list">
                 {project.details.map((point, idx) => (
-                  <li key={idx} className="project-details__desc-para">
+                  <li key={idx} className="project-details__desc-details">
                     {point}
                   </li>
                 ))}

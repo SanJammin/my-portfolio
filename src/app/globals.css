@@ -532,6 +532,13 @@ textarea {
     margin-bottom: 2rem;
 }
 
+.project-details__desc-details {
+    font-size: 1.8rem;
+    line-height: 1.7;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
 .project-details__tools-used {
     margin: 0 0 7rem 0;
 }
@@ -547,6 +554,17 @@ textarea {
     margin-right: 1.5rem;
     font-size: 1.6rem;
     background: rgba(153, 153, 153, 0.2);
+    border-radius: 5px;
+    font-weight: 600;
+    color: #777;
+}
+
+.project-details__tools-used-item-project-page {
+    padding: 1rem 2rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1.6rem;
+    background: #fff;
     border-radius: 5px;
     font-weight: 600;
     color: #777;
