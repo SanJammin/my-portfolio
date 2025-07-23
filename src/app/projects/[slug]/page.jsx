@@ -16,6 +16,7 @@ export default function ProjectDetail({ params }) {
         <div className="project-cs-hero__info">
           <p className="text-primary">{project.description}</p>
         </div>
+
         <div className="project-cs-hero__cta">
           {project.live && (
             <Link href={project.live} target="_blank" className="btn btn--theme btn--med">
@@ -42,6 +43,7 @@ export default function ProjectDetail({ params }) {
         </div>
 
         <div className="project-details__content-main">
+          {/* Tools Used */}
           <section className="project-details__tools-used">
             <h3 className="project-details__content-title">Tools Used</h3>
             <div className="project-details__tools-used-list">
@@ -53,10 +55,26 @@ export default function ProjectDetail({ params }) {
             </div>
           </section>
 
-          <section className="project-details__desc">
-            <h3 className="project-details__content-title">Overview</h3>
-            <p className="project-details__desc-para">{project.description}</p>
-          </section>
+          {/* Details */}
+          {project.details && (
+            <section className="project-details__desc">
+              <h3 className="project-details__content-title">Project Highlights</h3>
+              <ul className="project-details__desc-list">
+                {project.details.map((point, idx) => (
+                  <li key={idx} className="project-details__desc-para">
+                    {point}
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
+
+          {/* Back to Projects */}
+          <div style={{ marginTop: '2rem' }}>
+            <Link href="/#projects" className="btn btn--med btn--theme-inv">
+              ← Back to Projects
+            </Link>
+          </div>
         </div>
       </div>
     </section>
